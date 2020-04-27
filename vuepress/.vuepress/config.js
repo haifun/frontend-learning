@@ -12,7 +12,10 @@ module.exports = {
         collapsable: false,
         children: [
           '/document/doc/作用域是什么.md',
-          '/document/doc/词法作用域.md'
+          '/document/doc/词法作用域.md',
+          '/document/doc/函数作用域和块作用域.md',
+          '/document/doc/提升.md',
+          '/document/doc/作用域闭包.md'
         ]
       }
     ]
