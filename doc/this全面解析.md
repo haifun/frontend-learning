@@ -34,3 +34,26 @@ var obj = {
 obj.foo(); //2
 ```
 
+
+2.2.3 显示绑定
+
+call，apply，bind
+
+硬绑定
+
+显式的强制绑定，因此我们称之为硬绑定
+
+```
+function foo() { 
+    console.log( this.a );
+}
+var obj = { 
+  a:2
+};
+var bar = function() { 
+  foo.call( obj );
+};
+bar(); // 2
+setTimeout( bar, 100 ); // 2
+
+```
